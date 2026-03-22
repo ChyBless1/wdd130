@@ -27,10 +27,14 @@ footer {
     margin: 0 auto;
 }
 
-hi,
-h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
 }
 
 nav,

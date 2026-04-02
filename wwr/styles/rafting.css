@@ -87,15 +87,6 @@ article {
     border-radius: 5px;
 }
 
-.socialmedia img {
-    width: 40px;
-    height: auto;
-}
-
-.socialmedia {
-    text-align: center;
-}
-
 .socialmedia a {
     margin: 0 10px;
 }
@@ -107,14 +98,6 @@ section {
 }
 
 /* Header Grid Layout*/
-header {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    background-color: #e6d8f2;
-}
 
 /* Logo image*/
 header img {

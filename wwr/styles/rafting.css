@@ -45,10 +45,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -85,10 +81,6 @@ article {
     margin-left: 10px;
     border: 2px solid var(--primary-color);
     border-radius: 5px;
-}
-
-.socialmedia a {
-    margin: 0 10px;
 }
 
 /* improve section spacing*/
@@ -196,6 +188,11 @@ footer {
 .socialmedia {
     display: flex;
     gap: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 .socialmedia img {

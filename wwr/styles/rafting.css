@@ -195,3 +195,145 @@ footer {
     width: 30px;
     height: auto;
 }
+
+/* contact page*/
+
+.contact-hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-hero p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-info p {
+    margin: 8px 0;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    max-width: 1000px;
+    margin: 0 auto 30px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+
+}
+
+.contact-form fieldset {
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.form-item {
+    margin-bottom: 12px;
+}
+
+.form-item label {
+    margin-bottom: 6px;
+}
+
+.contact-form input[type="text"] .contact-form input[type="email"] .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font: inherit;
+}
+
+.purpose-group {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+.purpose-group p {
+    margin-bottom: 8px;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-item label {
+    margin-bottom: 0;
+}
+
+.contact-form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+    background-color: var(--accent1-color);
+    color: #000;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.employees {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.employees h2 {
+    margin-bottom: 25px;
+}
+
+.employees-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: start;
+    justify-items: center;
+
+}
+
+.employees figure {
+    margin: 0;
+    text-align: center;
+}
+
+.employees img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.employees figcaption {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    line-height: 1.3;
+}
+
+@media (max-width: 700px) {
+
+    .contact-layout,
+    .employees-grid {
+        grid-template-columns: 1fr
+    }
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

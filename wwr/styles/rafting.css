@@ -225,7 +225,7 @@ footer {
 }
 
 .contact-info h2 {
-    margin-bottom: 0 0 6px 0;
+    margin-bottom: 6px;
     /*tighter */
 }
 
@@ -251,9 +251,9 @@ footer {
 }
 
 .contact-form fieldset {
-    border: none;
-    padding: none;
-    margin: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .form-item {

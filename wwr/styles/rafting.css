@@ -177,7 +177,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 12px 20px;
+    background-color: #e8dcf4;
+    border: 1px solid #999;
+    margin-top: 20px;
 }
 
 /*Social Icons*/
@@ -187,20 +190,27 @@ footer {
 }
 
 .socialmedia a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #777;
+    background-color: white;
     text-decoration: none;
-    margin: 0 10px;
 }
 
 .socialmedia img {
-    width: 30px;
-    height: auto;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
 }
 
 /* contact page*/
 
 .contact-hero {
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .contact-hero p {
@@ -211,10 +221,17 @@ footer {
 .contact-info {
     text-align: center;
     margin: 20px 0;
+    /* reduce from 30px */
+}
+
+.contact-info h2 {
+    margin-bottom: 0 0 6px 0;
+    /*tighter */
 }
 
 .contact-info p {
-    margin: 8px 0;
+    margin: 2px 0;
+    /* very tight spacing */
 }
 
 .contact-layout {
@@ -234,8 +251,9 @@ footer {
 }
 
 .contact-form fieldset {
-    border: 1px solid #ccc;
-    padding: 16px;
+    border: none;
+    padding: none;
+    margin: none;
 }
 
 .form-item {
@@ -246,7 +264,9 @@ footer {
     margin-bottom: 6px;
 }
 
-.contact-form input[type="text"] .contact-form input[type="email"] .contact-form textarea {
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
     width: 100%;
     padding: 10px;
     font: inherit;
